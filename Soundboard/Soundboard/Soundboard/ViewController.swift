@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func triggerSound(_ sender: Any) {
-        print("testSound");
+        print("testSound")
         
         guard let sound = NSDataAsset(name: "testSound") else {
             print("asset not found")
