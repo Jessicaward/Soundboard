@@ -29,11 +29,43 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0M2-xN-pIK">
-                                <rect key="frame" x="43" y="93" width="46" height="30"/>
+                                <rect key="frame" x="52" y="67" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sound"/>
                                 <connections>
                                     <action selector="triggerSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c1P-Zx-0n5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5n-E0-F5E">
+                                <rect key="frame" x="131" y="67" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Stop It"/>
+                                <connections>
+                                    <action selector="triggerSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FTa-5N-lTc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0S-is-7fR">
+                                <rect key="frame" x="178" y="58" width="137" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Freezing"/>
+                                <connections>
+                                    <action selector="triggerSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S6o-Hv-XiJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nrd-p7-rKM">
+                                <rect key="frame" x="317" y="67" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Saying"/>
+                                <connections>
+                                    <action selector="triggerSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WqU-Fb-En3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ca-Pl-h2L">
+                                <rect key="frame" x="52" y="114" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Face"/>
+                                <connections>
+                                    <action selector="triggerSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4x3-0f-t7K"/>
                                 </connections>
                             </button>
                         </subviews>
