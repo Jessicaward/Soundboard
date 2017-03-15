@@ -36,20 +36,12 @@
                                     <action selector="triggerSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c1P-Zx-0n5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5n-E0-F5E">
-                                <rect key="frame" x="131" y="67" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Stop It"/>
-                                <connections>
-                                    <action selector="triggerSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FTa-5N-lTc"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0S-is-7fR">
-                                <rect key="frame" x="178" y="58" width="137" height="48"/>
+                                <rect key="frame" x="208" y="72" width="83" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Freezing"/>
                                 <connections>
-                                    <action selector="triggerSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S6o-Hv-XiJ"/>
+                                    <action selector="triggerFreezing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="foB-kz-YP8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nrd-p7-rKM">
@@ -57,7 +49,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Saying"/>
                                 <connections>
-                                    <action selector="triggerSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WqU-Fb-En3"/>
+                                    <action selector="triggerSaying:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZUm-K4-DDa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ca-Pl-h2L">
@@ -65,7 +57,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Face"/>
                                 <connections>
-                                    <action selector="triggerSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4x3-0f-t7K"/>
+                                    <action selector="triggerFace:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BjF-qf-4ON"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5n-E0-F5E">
+                                <rect key="frame" x="131" y="70" width="46" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Stop It"/>
+                                <connections>
+                                    <action selector="triggerStopIt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VwV-Bg-uUP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -74,7 +74,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+            <point key="canvasLocation" x="117.39130434782609" y="123.09782608695653"/>
         </scene>
     </scenes>
 </document>
