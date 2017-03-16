@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					D2F722431E789DA8005554BC = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5Q78NZ7XGT;
 						ProvisioningStyle = Automatic;
 					};
 					D2F722571E789DA9005554BC = {
@@ -412,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Q78NZ7XGT;
 				INFOPLIST_FILE = Soundboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jessica-Ward.Soundboard";
@@ -424,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Q78NZ7XGT;
 				INFOPLIST_FILE = Soundboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jessica-Ward.Soundboard";
@@ -505,6 +508,7 @@
 				D2F7226E1E789DA9005554BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2F7226F1E789DA9005554BC /* Build configuration list for PBXNativeTarget "SoundboardTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +517,7 @@
 				D2F722711E789DA9005554BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2F722721E789DA9005554BC /* Build configuration list for PBXNativeTarget "SoundboardUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				D2F722741E789DA9005554BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
