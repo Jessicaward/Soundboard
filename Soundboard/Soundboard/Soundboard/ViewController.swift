@@ -62,10 +62,9 @@ class ViewController: UIViewController
     {
         playSoundEffect(soundName: "NotSayingIt")
     }
-    
-    @IBAction func triggerFace(_ sender: Any)
-    {
-        playSoundEffect(soundName: "Freezing")
+
+    @IBAction func triggerGoAway(_ sender: Any) {
+        playSoundEffect(soundName: "Go Away")
     }
     
     @IBAction func triggerFreezing(_ sender: Any)
