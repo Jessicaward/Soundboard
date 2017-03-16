@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func triggerSound(_ sender: Any) {
-        print("testSound");
+        print("testSound")
         
         guard let sound = NSDataAsset(name: "testSound") else {
             print("asset not found")
@@ -32,6 +32,7 @@ class ViewController: UIViewController {
             
             player = try AVAudioPlayer(data: sound.data, fileTypeHint: AVFileTypeMPEGLayer3)
             
+            //Plays Sound
             player!.play()
         } catch let error as NSError {
             print("error: \(error.localizedDescription)")
