@@ -21,17 +21,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soundboard 😎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L9l-GL-Owz">
-                                <rect key="frame" x="146.66666666666669" y="358" width="121.00000000000006" height="20"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bull Head Small" translatesAutoresizingMaskIntoConstraints="NO" id="AeR-dr-X6r">
+                                <rect key="frame" x="87" y="304" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="WUB-jc-vnl"/>
+                                    <constraint firstAttribute="width" constant="240" id="cQV-8M-juJ"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="L9l-GL-Owz" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="94d-kf-QKE"/>
-                            <constraint firstItem="L9l-GL-Owz" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yzG-Nv-HNK"/>
+                            <constraint firstItem="AeR-dr-X6r" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="82P-VF-lrF"/>
+                            <constraint firstItem="AeR-dr-X6r" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qmA-k7-tBy"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -40,4 +41,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Bull Head Small" width="600" height="351"/>
+    </resources>
 </document>
